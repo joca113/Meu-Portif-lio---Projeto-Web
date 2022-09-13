@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #834e91;
+}
+
+#cabeçalho{
+    display: flex;
+    align-items: center;
+    background-color:  #BFA0C7;
+    justify-content: space-between ; 
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.link-retorno1{
+    font-size: 1.3em;
+    padding-left: 1%;
+    text-decoration: none;
+}
+
+.link-interno:hover{
+    color: white;
+    background-color: rgb(100,92,170);
+    border-radius: 10px;
+    transition: 0.8s
+}
+
+a:visited{
+    color: black
+}
+
+a:visited:hover{
+    color: white
+}
+
+.sumario{
+    display: flex;
+    justify-content: space-between ;
+    justify-content: center; 
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding-right: 5%;
+    flex-wrap: wrap;
+}
+
+.link-interno{
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 30px; 
+    padding-right: 30px;   
+    font-size: 1.6em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%
+}
+
+#introducao{
+    padding: 100px;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 3em;
+}
+
+.subtitulo{
+    padding: 35px;
+    font-size: 1.4em;
+}
+
+#Filmes{
+    background-color: rgb(117, 61, 170);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 30px;
+    padding-bottom: 1%;
+}
+
+.titulo-topico{
+    padding-top: 3%;
+    text-align: center;
+    font-size: 2em;
+}
+
+.subtitulo-topico{
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.titulo-lista{
+    font-size: 1.7em;
+}
+
+.lista{
+    display: flex;
+    font-size: 1.7em;
+    margin-top: 5%;
+    padding-left: 10%;
+}
+
+.item-lista{
+    padding-top: 20%;
+    
+}
+
+.link-lista{
+    padding-top: 3%;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.imagem{
+    display: flex;
+    padding-left: 10%;
+    margin-left: 10%;
+    padding-right: 2%;
+}
+
+.area-da-lista{
+    display: flex;
+    margin-top: 3%;
+}
+
+.area-da-lista-1{
+    display:flex;
+    flex-direction: column;
+    padding-left: 3%;
+    padding-top: 2%;
+}
+
+img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+#séries{
+    background-color: rgb(117, 61, 170);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 30px;
+    padding-bottom: 1%;
+}
+
+#animes{
+    background-color: rgb(117, 61, 170);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 30px;
+    padding-bottom: 1%;
+}
+
+#livros{
+    background-color: rgb(117, 61, 170);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 30px;
+    padding-bottom: 1%;
+}
+
+#musica{
+    background-color: rgb(117, 61, 170);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 30px;
+    padding-bottom: 1%;
+}
+
+#jogos{
+    background-color: rgb(117, 61, 170);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 30px;
+    padding-bottom: 1%;
+}
+
+#esportes{
+    background-color: rgb(117, 61, 170);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 30px;
+    padding-bottom: 1%; 
+}
+
+.fim{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    margin-bottom: 4%;
+    margin-left: 45%;
+    margin-right: 45%;
+    background-color: #834e91;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+a:link{
+    color: black
+}
+
+a:link:hover{
+    color: white
+}
+
+.fim:hover{
+    color: white;
+    background-color: rgb(100,92,170);
+    border-radius: 10px;
+    transition: 0.8s;
+}
+
